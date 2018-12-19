@@ -116,7 +116,7 @@ var watchList = [
 // Add your code below this line
 
 let rating = watchList.map(function(item) {
-    ({"title":item["Title"], "rating":item["imdbRating"]});
+    return ({"title":item["Title"], "rating":item["imdbRating"]});
 });
 // Add your code above this line
 
